@@ -1,4 +1,20 @@
 #p1::before {
-	content: "przed elementem";
-	color: red;
+    content: "przed elementem";
+    color: red;
+}
+
+#p2::after {
+    content: "po elemencie";
+    color: pink;
+}
+
+
+#p3::first-letter {
+    
+    color: green;
+    text-transform: uppercase;
+}
+
+#p4::first-line{
+    color:yellow;
 }
